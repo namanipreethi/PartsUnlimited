@@ -8,6 +8,7 @@ namespace PartsUnlimited.Models
 {
     public interface IPartsUnlimitedContext : IDisposable
     {
+         //I am fine
         IDbSet<CartItem> CartItems { get; }
         IDbSet<Category> Categories { get; }
         IDbSet<OrderDetail> OrderDetails { get; }
